@@ -21,6 +21,7 @@ The web today isn’t built for everyone. Millions of users with cognitive and s
   <img width="1201" alt="Screenshot 2025-05-06 at 5 12 05 PM" src="https://github.com/user-attachments/assets/89709e8c-378f-49b6-9052-30e2cc9f7022" />
 
 <br/>
+<br/>
 
 
 ## 💡 Our Solution
