@@ -1,0 +1,126 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+:root {
+  --background: 210 100% 98%;   /* light blue background */
+  --foreground: 222 47% 11%;    /* dark blue text */
+
+  --primary: 222 89% 53%;       /* blue primary */
+  --primary-foreground: 0 0% 100%; /* white text on blue */
+
+  --secondary: 210 16% 82%;
+  --secondary-foreground: 222 47% 11%;
+
+  --card: 0 0% 100%;
+  --card-foreground: 222 47% 11%;
+
+  --muted: 210 16% 92%;
+  --muted-foreground: 222 47% 11%;
+
+  --accent: 222 89% 53%;
+  --accent-foreground: 0 0% 100%;
+
+  --destructive: 0 84% 60%;
+  --destructive-foreground: 0 0% 100%;
+
+  --border: 210 16% 82%;
+  --input: 210 16% 82%;
+  --ring: 222 89% 53%;
+
+  --radius: 0.5rem;
+}
+
+.dark {
+  --background: 222 47% 11%;
+  --foreground: 210 100% 98%;
+
+  --primary: 222 89% 53%;
+  --primary-foreground: 0 0% 100%;
+
+  --secondary: 222 47% 20%;
+  --secondary-foreground: 210 100% 98%;
+
+  --card: 222 47% 15%;
+  --card-foreground: 210 100% 98%;
+
+  --muted: 222 47% 20%;
+  --muted-foreground: 210 100% 98%;
+
+  --accent: 222 89% 53%;
+  --accent-foreground: 0 0% 100%;
+
+  --destructive: 0 72% 51%;
+  --destructive-foreground: 0 0% 100%;
+
+  --border: 222 47% 20%;
+  --input: 222 47% 20%;
+  --ring: 222 89% 53%;
+}
+
+
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 222.2 84% 4.9%;
+    --card: 0 0% 100%;
+    --card-foreground: 222.2 84% 4.9%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 222.2 84% 4.9%;
+    --primary: 222.2 47.4% 11.2%;
+    --primary-foreground: 210 40% 98%;
+    --secondary: 210 40% 96.1%;
+    --secondary-foreground: 222.2 47.4% 11.2%;
+    --muted: 210 40% 96.1%;
+    --muted-foreground: 215.4 16.3% 46.9%;
+    --accent: 210 40% 96.1%;
+    --accent-foreground: 222.2 47.4% 11.2%;
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 210 40% 98%;
+    --border: 214.3 31.8% 91.4%;
+    --input: 214.3 31.8% 91.4%;
+    --ring: 222.2 84% 4.9%;
+    --radius: 0.5rem;
+  }
+
+  body {
+    background-color: hsl(var(--background));
+    color: hsl(var(--foreground));
+  }
+
+  * {
+    border-color: hsl(var(--border));
+  }
+}
+
+@layer components {
+  .semi-circle-gradient {
+    background: radial-gradient(
+      ellipse at center top,
+      #0A1A0F 0%,
+      #1A9153 40%,
+      #2EFF8F 80%,
+      transparent 100%
+    );
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    position: absolute;
+    width: 140%;
+    height: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    top: -40%;
+    opacity: 0.9;
+    z-index: 0;
+  }
+
+  .waitlist-input {
+    @apply bg-black/20 border border-white/20 rounded-full px-6 py-3 text-white placeholder-white/50 w-full focus:outline-none focus:border-green-400;
+    backdrop-filter: blur(4px);
+  }
+
+  .waitlist-button {
+    @apply bg-white text-black font-medium px-8 py-3 rounded-full hover:bg-gray-100 transition-colors;
+  }
+}
