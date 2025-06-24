@@ -2,10 +2,10 @@
 
 A powerful Chrome extension designed to make the internet more accessible for users with ADHD, dyslexia, sensory sensitivities, visual impairments, and other cognitive conditions.
 
-📎 [View Full Project Presentation on Canva](https://www.canva.com/design/DAGmpbCFBmc/-4Ps-eWgODBaVviw2I3QNA/edit?utm_content=DAGmpbCFBmc&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
+📎 [View Full Project Presentation on Canva](https://www.canva.com/)
 
 
-[Drive link for prototype demo video](https://drive.google.com/drive/folders/19nMR58neQTTQykC_bwy4jOpAQ0sWrZVg)
+[Drive link for prototype demo video](https://drive.google.com/drive/)
 
 
 ## 🚀 Tagline
@@ -109,9 +109,9 @@ Auto-adaptive UI based on a user’s profile, offering inclusive course delivery
 ---
 
 ## 👥 Team
-- **Kavya Kapoor**
-- **Dev Garg**
-- **Anagh Miglani**
+- **Shaurya Tyagi**
+- **Kavya kapoor**
+- **Lakshya Gupta**
 
 ---
 
